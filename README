@@ -1,0 +1,13 @@
+## Utilitaire pour automatiser des taches sur un calendrier caldav
+
+Installation 
+
+- cloner le repo git
+- pip install -r requirements.txt
+- créer un fichier 'run' contenant:
+
+#! /bin/sh
+
+env CALURL="https://<login>:<password>@<caldav URL>" python caltomation.py
+
+- rendre ce fichier executable et le lancer
